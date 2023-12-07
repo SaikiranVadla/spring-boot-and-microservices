@@ -1,0 +1,45 @@
+server:
+  port: 2026
+  
+  
+spring:
+  application:
+    name: LEAVE-SERVICE
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: saikiran25.vsk@gmail.com
+    password: stgdoatoalqmsezp
+
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true      
+  datasource:
+    password: Saikiran@25
+    url: jdbc:mysql://localhost:3306/leaveservice
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+   
+   
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true    
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+instance:
+  hostname: localhost    
+  
+ 
+      
+      

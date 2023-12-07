@@ -1,0 +1,32 @@
+2023-10-04T03:46:26.874-07:00  INFO 6844 --- [restartedMain] c.e.excel.SpringbootExcelApplication     : Starting SpringbootExcelApplication using Java 17.0.7 with PID 6844 (C:\Users\Sreenivas Bandaru\Documents\spring-projects\SpringbootExcel\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Documents\spring-projects\SpringbootExcel)
+2023-10-04T03:46:26.878-07:00  INFO 6844 --- [restartedMain] c.e.excel.SpringbootExcelApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-04T03:46:26.992-07:00  INFO 6844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-04T03:46:26.994-07:00  INFO 6844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-04T03:46:28.141-07:00  INFO 6844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04T03:46:28.251-07:00  INFO 6844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces.
+2023-10-04T03:46:29.262-07:00  INFO 6844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8900 (http)
+2023-10-04T03:46:29.278-07:00  INFO 6844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-04T03:46:29.280-07:00  INFO 6844 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-04T03:46:29.403-07:00  INFO 6844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-04T03:46:29.416-07:00  INFO 6844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2419 ms
+2023-10-04T03:46:29.709-07:00  INFO 6844 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04T03:46:29.803-07:00  INFO 6844 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-04T03:46:29.808-07:00  INFO 6844 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-04T03:46:30.056-07:00  INFO 6844 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-04T03:46:30.289-07:00  INFO 6844 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-04T03:46:30.337-07:00  INFO 6844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04T03:46:30.346-07:00  WARN 6844 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-10-04T03:46:30.981-07:00  INFO 6844 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57a2d378
+2023-10-04T03:46:30.986-07:00  INFO 6844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04T03:46:31.517-07:00  INFO 6844 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-04T03:46:32.737-07:00  INFO 6844 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-04T03:46:32.841-07:00  INFO 6844 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04T03:46:33.385-07:00  WARN 6844 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04T03:46:33.999-07:00  INFO 6844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-04T03:46:34.083-07:00  INFO 6844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8900 (http) with context path ''
+2023-10-04T03:46:34.118-07:00  INFO 6844 --- [restartedMain] c.e.excel.SpringbootExcelApplication     : Started SpringbootExcelApplication in 8.03 seconds (process running for 9.49)
+2023-10-04T03:46:37.962-07:00  INFO 6844 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-10-04T03:46:37.983-07:00  INFO 6844 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-04T03:46:37.998-07:00  INFO 6844 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04T03:46:38.005-07:00  INFO 6844 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-04T03:46:38.027-07:00  INFO 6844 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

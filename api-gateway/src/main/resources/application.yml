@@ -1,0 +1,72 @@
+server:
+  port: 2025
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: MANAGER-SERVICE
+          uri: lb://MANAGER-SERVICE
+          predicates:
+            - Path=/manager/**
+#          filters:
+#                - name: CircuitBreaker
+#                  args:
+#                   name: MANAGER-SERVICE
+#                   fallbackuri: forward:/managerServiceFallBack
+         
+        - id: EMPLOYEE-SERVICE
+          uri: lb://EMPLOYEE-SERVICE
+          predicates:
+            - Path=/employee/**
+#          filters:
+#                - name: CircuitBreaker
+#                  args:
+#                   name: EMPLOYEE-SERVICE
+#                   fallbackuri: forward:/employeeServiceFallBack
+        - id: SECURITYMICRO
+          uri: lb://SECURITYMICRO
+          predicates:
+            - Path=/auth/**        
+          
+        - id: LEAVESERVICE
+          uri: lb://LEAVESERVICE
+          predicates:
+            - Path=/leave/**           
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true    
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+instance:
+  hostname: localhost          
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+          
+#hystrix:
+#  command:
+#    fallbackcmd:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 4000
+#
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream         
+           
